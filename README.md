@@ -32,7 +32,6 @@ RegisterNumber:  212224220062
 ```
 import chardet
 file='spam.csv'
-print("Name: Sukirthana.M\nReg.no: 212224220112")
 with open(file,'rb')as rawdata:
     result=chardet.detect(rawdata.read(100000))
 result
